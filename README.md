@@ -1,2 +1,2 @@
-# js-rocke
+# js-rocket
 
