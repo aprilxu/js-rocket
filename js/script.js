@@ -1,3 +1,14 @@
+// this function change class name
+var doCoolStuff = function () {
+    var currentClassName = document.getElementById('cool').className;
+
+    if (currentClassName == 'cool') {
+        document.getElementById('cool').className = 'cool red';
+    } else {
+    document.getElementById('cool').className = 'cool';
+    }
+}
+
 var car = {
             make: 'Honda',
             type: 'Civic',
@@ -17,7 +28,7 @@ var car = {
                 alert('fly');
             },
             switchCar: function (isOn) {
-                condole.log('turn car' +isOn)
+                console.log('turn car' +isOn)
                 if (isOn == true) {
                     this.isTurnedOn = true;
                 } else {

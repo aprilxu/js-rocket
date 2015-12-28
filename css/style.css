@@ -1,3 +1,16 @@
 body {
     background-color: grey;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cool {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: background-color 0.2s;
+}
+
+.cool.red {
+    background-color: red;
 }
