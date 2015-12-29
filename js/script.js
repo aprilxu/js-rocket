@@ -1,3 +1,8 @@
+// redirect to a different page
+setTimeout(function () {
+    location.href = 'rocket.html';
+}, 2000);
+
 // this function change class name
 var doCoolStuff = function () {
     var currentClassName = document.getElementById('cool').className;
